@@ -22,7 +22,7 @@ pipeline {
       stage('Publishing API to Portal') {
          steps {
             echo "[INFO] - Publishing API to Portal - Begin"
-            sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deployment-api.py tenant'
+            sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deploy-api.py tenant'
             echo "[INFO] - Publishing API to Portal - End"
          }
       }
