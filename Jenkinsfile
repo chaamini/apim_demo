@@ -24,6 +24,7 @@ pipeline {
             echo "[INFO] - Publishing API to Portal - Begin"
             sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deploy-api.py tenant'
             echo "[INFO] - Publishing API to Portal - End"
+     
          }
       }
    }
